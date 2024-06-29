@@ -9,10 +9,10 @@ jobs:
     name: build
     runs-on: [self-hosted]
     steps:
-      - name: checkout the code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      # - name: checkout the code
+      #   uses: actions/checkout@v4
+      #   with:
+      #     fetch-depth: 0
       # - name: BUilding code and analyze with SonarQube
       #   uses: actions/checkout@master
       #   env:
